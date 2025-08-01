@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interview Preparation Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Interview Prep Tracker</h1>
+    <form id="topic-form">
+      <input type="text" id="topic-input" placeholder="Enter topic (e.g., DSA)" required />
+      <select id="status-select">
+        <option value="Not Started">Not Started</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+      <button type="submit">Add Topic</button>
+    </form>
+    <ul id="topic-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
